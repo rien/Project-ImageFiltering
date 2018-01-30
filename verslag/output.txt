@@ -1,0 +1,76 @@
+[FilterManager] Initializing...
+[FilterManager :: ShaderCompilation] Compiling shader, message (OK if empty):
+[FilterManager :: ShaderCompilation] Compiling shader, message (OK if empty):
+[FilterManager] Loading an image from file <images/GrassLandscape.jpg>
+[FilterManager] Loading an image from file <images/GreenScreen.jpg>
+[FilterManager] Loading an image from file <images/Lena_SaltPepperNoise.gif>
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 14 milliseconds.
+
+Filter: Desaturate CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 113 milliseconds.
+
+Filter: Desaturate GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 16 milliseconds.
+
+Filter: Invert CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 82 milliseconds.
+
+Filter: Invert GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 17 milliseconds.
+
+Filter: Greenscreen CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 133 milliseconds.
+
+Filter: Greenscreen GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 15 milliseconds.
+
+Filter: Gaussian blur GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 40 milliseconds.
+
+Filter: Gaussian blur CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 40 milliseconds.
+
+Filter: Sharpen GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 37 milliseconds.
+
+Filter: Sharpen CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 195 milliseconds.
+
+Filter: EdgeDetect GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 42 milliseconds.
+
+Filter: EdgeDetect CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 418 milliseconds.
+
+Filter: Median GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 75 milliseconds.
+
+Filter: Median CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 553 milliseconds.
+
+Filter: HueShift GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 21 milliseconds.
+
+Filter: Histogran CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 381 milliseconds.
+
+Filter: Histogran GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 32 milliseconds.

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PerPixelFilters">
+      <UniqueIdentifier>{19e329fa-c4a8-47cc-a63b-b6fddd02a428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BlockBasedFilters">
+      <UniqueIdentifier>{341433ad-abd4-46f8-b487-878d8a723581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GlobalFilters">
+      <UniqueIdentifier>{5a759df5-6c42-485f-a61f-3f5174a7f591}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Desaturate_GPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Desaturate_CPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Invert_GPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Invert_CPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelUtils.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Greenscreen_CPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Greenscreen_GPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_GaussianBlurFilter_GPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Sharpen_GPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_EdgeDetect_GPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Median_GPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_EdgeDetect_CPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_GaussianBlurFilter_CPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Median_CPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_Sharpen_CPU.cpp">
+      <Filter>Source Files\BlockBasedFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkBalance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_HueShift_GPU.cpp">
+      <Filter>Source Files\PerPixelFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_HistogramEqualization_CPU.cpp">
+      <Filter>Source Files\GlobalFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFilter_HistogramEqualization_GPU.cpp">
+      <Filter>Source Files\GlobalFilters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageFilter_Desaturate_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Desaturate_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Invert_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Invert_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Greenscreen_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Greenscreen_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_GaussianBlurFilter_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Sharpen_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_EdgeDetect_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Median_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Median_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_EdgeDetect_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_Sharpen_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_GaussianBlurFilter_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkBalance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_HueShift_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_HistogramEqualization_CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFilter_HistogramEqualization_GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

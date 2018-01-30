@@ -1,0 +1,52 @@
+
+Before:
+
+Filter: Desaturate CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 351 milliseconds.
+
+Filter: Desaturate GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 15 milliseconds.
+
+Filter: Invert CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 348 milliseconds.
+
+Filter: Invert GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 17 milliseconds.
+
+Filter: Greenscreen CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 535 milliseconds.
+
+Filter: Greenscreen GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 17 milliseconds.
+
+After:
+
+Filter: Desaturate CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 85 milliseconds.
+
+Filter: Desaturate GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 16 milliseconds.
+
+Filter: Invert CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 81 milliseconds.
+
+Filter: Invert GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 15 milliseconds.
+
+Filter: Greenscreen CPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 130 milliseconds.
+
+Filter: Greenscreen GPU
+[FilterManager :: Filter] Starting filter execution ...
+[FilterManager :: Filter] Filter execution finished in 17 milliseconds.
